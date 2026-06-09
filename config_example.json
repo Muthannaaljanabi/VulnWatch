@@ -1,0 +1,63 @@
+{
+  "_comment": "Example Configuration File - DO NOT commit with real values!",
+  "_instructions": "Copy this to config.json and fill in your actual values. config.json is in .gitignore for security.",
+  
+  "NVD": {
+    "ApiKey": "YOUR_NVD_API_KEY_HERE",
+    "_note": "Get free API key from: https://nvd.nist.gov/developers/request-an-api-key"
+  },
+  
+  "SharePoint": {
+    "SiteUrl": "https://YOUR-TENANT.sharepoint.com/sites/YOUR-SITE",
+    "DocumentLibrary": "VulnerabilityScans",
+    "_example": "https://contoso.sharepoint.com/sites/VulnMgmt"
+  },
+  
+  "Planner": {
+    "Enabled": false,
+    "TenantId": "YOUR_AZURE_TENANT_ID",
+    "ClientId": "YOUR_APP_CLIENT_ID",
+    "ClientSecret": "YOUR_CLIENT_SECRET",
+    "PlanId": "YOUR_PLANNER_PLAN_ID",
+    "BucketId": "YOUR_BUCKET_ID",
+    "DefaultAssignee": "user@company.com",
+    "_note": "Leave Enabled=false if not using Planner integration"
+  },
+  
+  "Scanning": {
+    "MonthsToScan": 3,
+    "IncludeThirdParty": true,
+    "AutoCreateTasks": false,
+    "Schedule": "bi-weekly",
+    "_scheduleOptions": ["daily", "weekly", "bi-weekly", "monthly"]
+  },
+  
+  "Alerting": {
+    "EmailEnabled": false,
+    "SmtpServer": "smtp.company.com",
+    "FromAddress": "vulnscanner@company.com",
+    "ToAddresses": [
+      "security-team@company.com",
+      "it-management@company.com"
+    ],
+    "SendOnNewCritical": true,
+    "SendWeeklySummary": true
+  },
+  
+  "Compliance": {
+    "PCI_DSS_Enabled": false,
+    "ISO27001_Enabled": false,
+    "HIPAA_Enabled": false,
+    "NIST_CSF_Enabled": false,
+    "ReportOutputPath": "./ComplianceReports/"
+  },
+  
+  "Advanced": {
+    "MaxConcurrentScans": 10,
+    "ApiTimeout": 60,
+    "RetryAttempts": 3,
+    "CacheEnabled": true,
+    "CacheDuration": 24,
+    "_cacheDurationNote": "Hours to cache NVD results"
+  }
+}
