@@ -1,6 +1,6 @@
 # MIT License
 
-Copyright (c) 2026 Matt/ Texas Tech Squad 
+Copyright (c) 2026 [Your Name/Organization]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -248,9 +248,9 @@ When redistributing or using this software:
 If you discover security vulnerabilities in this software:
 
 1. **DO NOT** disclose publicly until a fix is available
-2. **Report to**: [your-email@company.com]
+2. **Report to**: [Support@txtechsquad.com]
 3. Allow **90 days** for remediation before public disclosure
-4. See [SECURITY.md](.github/SECURITY.md) for full policy
+4. See [SECURITY.md](SECURITY.md) for full policy
 
 ### No Security Guarantees
 
@@ -368,13 +368,13 @@ Check the GitHub repository for the latest version of this license.
 
 For questions about this license or terms of use:
 
-- **Email**: [support@txtechsquad.com]
-- **GitHub Issues**: https://github.com/Muthannaaljanabi/VulnWatch/issues
+- **Email**: [your-email@company.com]
+- **GitHub Issues**: [Repository URL]/issues
 - **Legal Counsel**: Consult your own attorney for legal questions
 
 ---
 
 **IMPORTANT: This software is provided for legitimate security purposes only. Unauthorized use is prohibited. Use at your own risk.**
 
-**Last Updated**: June 2026  
+**Last Updated**: February 2026  
 **Version**: 2.0.0
