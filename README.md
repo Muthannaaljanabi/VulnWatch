@@ -69,6 +69,26 @@ PowerShell scripts to check Windows devices for vulnerabilities based on Microso
 - ✅ Exports results to CSV
 - ✅ Checks against recent security bulletins
 
+## Screenshots
+
+### Fleet Dashboard — summary view
+Total CVEs broken down by severity, device counts, MSRC vs third-party split, and the
+most vulnerable devices ranked by risk score.
+
+![Fleet vulnerability dashboard summary](fleet-dashboard.png)
+
+### All Unique Vulnerabilities — searchable, filterable table
+Every CVE across the fleet with CVSS score, affected product, device count, KB articles,
+and remediation status. Filter by severity, source, and status.
+
+![All unique vulnerabilities table with filters](all-vulnerabilities.png)
+
+### Per-device Dashboard
+Single-device view: total CVEs, severity breakdown, patched vs unpatched, and a full
+CVE detail table with CSV export.
+
+![Per-device vulnerability dashboard](device-dashboard.png)
+
 ## Scripts Included
 
 ### 1. Check-MSRCVulnerabilities.ps1
